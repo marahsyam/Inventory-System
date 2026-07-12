@@ -1,9 +1,21 @@
-# Inventory Management System
+# نظام إدارة المخزون
 
-## Developed By
-Marah Syam
+## اسم المشروع
+نظام إدارة المخزون (Inventory Management System)
 
-## Technologies
+## وصف المشروع
+هو نظام ويب تم تطويره باستخدام PHP وMySQL وBootstrap وHTML وCSS وJavaScript، يهدف إلى إدارة المنتجات والتصنيفات والمستخدمين والطلبات من خلال لوحة تحكم خاصة بالمسؤول، مع توفير عمليات الإضافة والتعديل والحذف والبحث بطريقة سهلة.
+
+## فكرة المشروع
+تقوم فكرة المشروع على مساعدة المتاجر أو الشركات الصغيرة في إدارة المخزون بشكل إلكتروني، حيث يمكن للمسؤول:
+- إدارة المنتجات.
+- إدارة التصنيفات.
+- إدارة المستخدمين.
+- إدارة الطلبات.
+- متابعة كميات المنتجات.
+- رفع صور المنتجات وعرضها داخل النظام.
+
+## التقنيات المستخدمة
 - PHP
 - MySQL
 - Bootstrap 5
@@ -11,16 +23,29 @@ Marah Syam
 - CSS
 - JavaScript
 
-## Features
-- User Authentication
-- Dashboard
-- Category Management
-- Product Management
-- Order Management
-- User Management
-- Image Upload
-- Sales Statistics
+## طريقة تشغيل المشروع
 
-## Database
-The database file is located in:
-database/inventory_db.sql
+1. انسخ المشروع داخل مجلد **htdocs** في برنامج XAMPP.
+2. شغّل خدمتي **Apache** و **MySQL**.
+3. افتح **phpMyAdmin**.
+4. أنشئ قاعدة بيانات باسم **inventory_db**.
+5. استورد ملف قاعدة البيانات الموجود داخل المجلد:
+   `database/inventory_db.sql`
+6. افتح المتصفح وانتقل إلى الرابط:
+   `http://localhost/Inventory-System`
+
+## بيانات تسجيل الدخول
+
+### المسؤول (Admin)
+البريد الإلكتروني:
+marah@marah.com
+
+كلمة المرور:
+123456
+
+### المستخدم (User)
+البريد الإلكتروني:
+rawan@rawan.com
+
+كلمة المرور:
+123
